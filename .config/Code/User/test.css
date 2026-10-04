@@ -1,0 +1,39 @@
+/* Quick Input Box */
+.quick-input-widget {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.monaco-workbench .part.editor {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.monaco-editor {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.monaco-workbench .editor-group-container {
+    border: none !important;
+}
+
+.monaco-workbench .editor-group-watermark {
+    border: none !important;
+}
+
+.monaco-workbench .part.sidebar,
+.monaco-workbench .part.sidebar > .content {
+    border-radius: 0 !important;
+}
+
+.monaco-workbench * {
+    border-radius: 0 !important;
+}
+
+.part.sidebar {
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
