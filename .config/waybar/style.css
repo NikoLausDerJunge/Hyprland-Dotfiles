@@ -1,0 +1,21 @@
+@import "css/workspace.css";
+@import "css/tray.css";
+@import "css/window.css";
+@import "css/capsule.css";
+@import "css/audio.css";
+
+* {
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 500;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  margin: 10px 10px 2px;
+}
