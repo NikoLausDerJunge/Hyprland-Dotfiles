@@ -1,0 +1,31 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = '$directory$git_branch$git_status$python$nodejs$character'
+
+[directory]
+format = '[](#FFCA5C)[ $path ](fg:#1e1e2e bg:#FFCA5C)[](#FFCA5C)'
+style = 'fg:#1e1e2e bg:#FFCA5C'
+truncation_length = 3
+truncate_to_repo = false
+home_symbol = '~'
+
+[git_branch]
+format = '[](#cba6f7)[ 󰘬 $branch ](fg:#1e1e2e bg:#cba6f7)[](#cba6f7)'
+style = 'fg:#1e1e2e bg:#cba6f7'
+
+[git_status]
+format = '[](#f38ba8)[ $all_status$ahead_behind ](fg:#1e1e2e bg:#f38ba8)[](#f38ba8)'
+style = 'fg:#1e1e2e bg:#f38ba8'
+
+[python]
+format = '[](#89dceb)[  $version ](fg:#1e1e2e bg:#89dceb)[](#89dceb)'
+style = 'fg:#1e1e2e bg:#89dceb'
+
+[nodejs]
+format = '[](#a6e3a1)[  $version ](fg:#1e1e2e bg:#a6e3a1)[](#a6e3a1)'
+style = 'fg:#1e1e2e bg:#a6e3a1'
+
+[character]
+format = ' [❯](bold #cba6f7) '
+success_symbol = '[❯](bold #a6e3a1)'
+error_symbol = '[❯](bold #f38ba8)'
