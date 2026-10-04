@@ -1,8 +1,8 @@
 hl.config({
     general = {
-        gaps_in  = 5,
-        gaps_out = 10,
-        border_size = 2,
+        gaps_in  = 7,
+        gaps_out = 15,
+        border_size = 0,
 
         col = {
             active_border   = "rgba(f5f5f5ff)",
@@ -22,7 +22,9 @@ hl.config({
         inactive_opacity = 1.0,
 
         shadow = {
-            enabled = false,
+            enabled = true,
+            range = 10,
+            render_power = 10
         },
 
         blur = {
