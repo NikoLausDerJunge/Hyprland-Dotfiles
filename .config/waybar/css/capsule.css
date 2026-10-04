@@ -1,0 +1,50 @@
+#cpu,
+#memory,
+#clock,
+#audio,
+#window,
+#tray,
+#workspaces,
+#custom-distro,
+#pulseaudio.microphone {
+  background: rgba(71, 68, 64, 0.583);
+  color: rgb(222, 222, 222);
+  border: 1px solid rgba(136, 130, 124, 0.868);
+  border-radius: 40px;
+}
+
+#pulseaudio.microphone {
+  min-width: 40px;
+  padding: 0;
+  margin-right: 6px;
+}
+
+#audio {
+  margin-right: 4px;
+}
+
+#clock,
+#memory,
+#cpu {
+  padding: 0 16px;
+  margin: 0 5px;
+  transition: all 150ms ease;
+}
+
+#custom-distro {
+  color:rgb(209, 210, 210);
+  padding: 0 16px 0 12px;
+  margin: 0 5px;
+  transition: all 150ms ease;
+}
+
+#clock,
+#memory,
+#cpu {
+  padding: 0 16px;
+}
+
+#pulseaudio {
+  margin-right: 16px;
+  margin-left: 8px;
+}
