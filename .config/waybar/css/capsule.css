@@ -1,0 +1,38 @@
+@import "colors.css";
+
+#tray,
+#workspaces,
+#mpris,
+#clock {
+  background: @background;
+  border: 1px solid @border;
+  color: @font-color;
+  border-radius: 50px;
+}
+
+#mpris {
+  padding: 0px 15px 0px 15px;
+  margin-left: 2px;
+}
+
+#clock {
+  padding: 0px 12px 0 12px;
+  margin-right: 10px;
+}
+
+#pulseaudio.microphone {
+  min-width: 40px;
+  padding: 0;
+}
+
+#memory,
+#cpu {
+  padding: 0 16px;
+  margin: 0 5px;
+  transition: all 150ms ease;
+}
+
+#memory,
+#cpu {
+  padding: 0 16px;
+}

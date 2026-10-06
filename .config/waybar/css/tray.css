@@ -1,0 +1,14 @@
+#tray {
+  border-radius: 999px;
+  padding: 0 12px;
+  margin: 0 6px;
+  transition: all 150ms ease;
+}
+
+#tray > .passive {
+  opacity: 0.5;
+}
+
+#tray > .active {
+  opacity: 1;
+}

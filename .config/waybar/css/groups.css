@@ -1,0 +1,77 @@
+@import "colors.css";
+
+/* Distro + Window */
+#custom-distro,
+#window {
+  background: @background;
+  border: 1px solid @border;
+  color: @font-color;
+  margin: 0;
+  transition: all 150ms ease;
+}
+
+#custom-distro {
+  padding: 0 5px 0 16px;
+  margin-left: 5px;
+  border-radius: 50px 0 0 50px;
+  border-right: none;
+  font-size: 15px;
+}
+
+#window {
+  padding: 0 16px 0 15px;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  margin-right: 12px;
+}
+
+window#waybar.empty #window {
+  border-radius: 0 50px 50px 0;
+  margin-right: 5px;
+  padding-left: 0px;
+  margin-right: 12px;
+}
+
+
+
+
+/* Audio + Microfon + Memory + CPU */
+#audio,
+#pulseaudio.microphone,
+#memory,
+#cpu {
+  background: @background;
+  border-top: 1px solid @border;
+  border-bottom: 1px solid @border;
+  color: @font-color;
+  margin: 0;
+  padding: 0;
+  transition: all 150ms ease;
+}
+
+#audio {
+  padding: 0 2px 0 8px;
+  border-left: 1px solid @border;
+  border-right: none;
+  border-radius: 50px 0 0 50px;
+}
+
+#pulseaudio.microphone {
+  min-width: 16px;
+  border-left: none;
+  border-right: none;
+}
+
+#memory {
+  padding: 0 13px 0 12px;
+  border-left: none;
+  border-right: none;
+}
+
+#cpu {
+  padding: 0px 17px 0px 0px;
+  border-left: none;
+  border-right: 1px solid @border;
+  border-radius: 0 50px 50px 0;
+  margin-right: 8px;
+}

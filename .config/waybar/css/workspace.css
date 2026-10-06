@@ -1,0 +1,31 @@
+#workspaces {
+  padding: 7px 10px;
+  transition: all 1000ms ease;
+  margin-left: 5px;
+}
+
+#workspaces button {
+  all: unset;
+  min-height: 15px;
+  margin: 0 3px;
+  border-radius: 999px;
+  color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.empty {
+  background: rgba(254, 254, 254, 0.156);
+  min-width: 15px;
+  padding: 0 5px 0 0;
+}
+
+#workspaces button:not(.empty) {
+  background: rgba(254, 254, 254, 0.356);
+  min-width: 15px;
+  padding: 0 5px 0 0;
+}
+
+#workspaces button.active {
+  background: rgba(255, 255, 255, 0.690);
+  min-width: 50px;
+}
