@@ -1,0 +1,34 @@
+@import "css/workspace.css";
+@import "css/tray.css";
+@import "css/window.css";
+@import "css/capsule.css";
+@import "css/audio.css";
+@import "css/groups.css";
+@import "css/colors.css";
+
+* {
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  margin: 16px 14px 0px;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+tooltip {
+  background: @background;
+  border: transparent;
+  border-radius: 12px;
+}
+
+tooltip label {
+  color: @font-color;
+  padding: 4px;
+}
