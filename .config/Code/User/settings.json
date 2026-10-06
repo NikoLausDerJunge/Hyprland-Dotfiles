@@ -1,0 +1,94 @@
+{
+// Workbench
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "single",
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 25,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.showIcons": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.welcomePage.experimentalOnboarding": false,
+  "workbench.experimental.modernUI": false,
+  "workbench.colorTheme": "◑ Dusk Office Dark Ivory",
+
+// Hides Explorer Arrow
+  "material-icon-theme.hidesExplorerArrows": true,
+
+// Updates
+  "update.showReleaseNotes": false,
+
+// Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.decorations.badges": false,
+  "explorer.openEditors.visible": 1,
+  "explorer.autoReveal": true,
+
+// Window
+  "window.zoomLevel": 3,
+  "window.menuBarVisibility": "hidden",
+  "window.titleBarStyle": "native",
+
+
+// Breadcrumbs
+  "breadcrumbs.enabled": false,
+
+// Chat
+  "chat.viewSessions.enabled": false,
+  "chat.contextUsage.enabled": false,
+  "chat.agent.enabled": false,
+
+  "security.workspace.trust.enabled": false,
+
+// Editor
+  "editor.mouseWheelZoom": true,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 4,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font'",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "350",
+  "editor.lineHeight": 1.7,
+  "editor.padding.bottom": 20,
+  "editor.padding.top": 20,
+  "editor.lineNumbers": "on",
+  "editor.minimap.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.guides.indentation": false, // Lines between Spaces
+
+  "vscode_custom_css.imports": [
+    "file:///home/admin/.config/Code%20-%20OSS/User/test.css"
+  ],
+
+// Terminal
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font, Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.fontWeight": "380",
+  "terminal.integrated.mouseWheelZoom": true,
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.suggest.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "chat.checkpoints.enabled": false,
+  "window.commandCenter": false,
+  "chat.titleBar.signIn.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.browser.showInTitleBar": false,
+  "window.customTitleBarVisibility": "never",
+  "terminal.integrated.defaultProfile.linux": "fish",
+}
