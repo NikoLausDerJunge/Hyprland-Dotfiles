@@ -1,0 +1,37 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = "[](fg:#9f640b)$username[](bg:#9f640b fg:#b87f28)$directory[ ](fg:#b87f28)$git_branch$git_status$character"
+
+[username]
+show_always = true
+format = '[$user ](bg:#9f640b fg:#241A16)'
+disabled = false
+
+[directory]
+format = '[$path]($style)'
+style = 'fg:#241A16 bg:#b87f28'
+truncation_length = 3
+truncate_to_repo = false
+home_symbol = '~'
+
+[git_branch]
+format = '[](#cba6f7)[ 󰘬 $branch ](fg:#1e1e2e bg:#cba6f7)[](#cba6f7)'
+style = 'fg:#1e1e2e bg:#cba6f7'
+
+[git_status]
+format = '[](#f38ba8)[ $all_status$ahead_behind ](fg:#1e1e2e bg:#f38ba8)[](#f38ba8)'
+style = 'fg:#1e1e2e bg:#f38ba8'
+
+[python]
+symbol = " "
+format = '[$symbol($version)]($style) '
+style = 'fg:#89dceb'
+
+[nodejs]
+format = '[  $version ]($style)'
+style = 'fg:#1e1e2e'
+
+[character]
+format = '[❯](bold #ebe9e9) '
+success_symbol = '[❯](bold #a7f7a0)'
+error_symbol = '[❯](bold #ff6b6b)'
